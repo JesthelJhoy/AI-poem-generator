@@ -56,15 +56,16 @@ margin-bottom: 20px;
     max-width: 80%;
     line-height: 100px;  
     margin-bottom: 30px;
+    color: #7F8487;
 }
 
 footer {
+    font-size: 14px;
     text-align: center;
     color: #7F8487;
 }
 
 a {
     color: #7F8487;
-    font-size: 12px;
     font-style: italic;
 }

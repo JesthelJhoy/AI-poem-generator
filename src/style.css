@@ -1,2 +1,70 @@
 body {
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDVrMnU3c2VhcDRubHRhNTh6eWVhYW4zamc2MzJncmFwczJhNjk5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aDcrsww5Ybp18hq/giphy.gif");
+background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+
+.container {
+    margin: 100px auto;
+    max-width: 600px;
+    padding: 40px;
+    background: transparent;
+}
+
+h1 {
+    text-align: center;
+  color: #d7dfe5;
+  font-weight: 800;
+  font size: 38px;
+  line-height: 1.5px
+}
+
+
+.text-form {
+    display: block;
+  padding: 16px;
+  border: 1px solid #7F8487;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #7F8487;
+}
+
+.submit-button {
+    display: block;
+ border: 1px solid #7F8487;
+ width: 20%;
+ font-size: 14px;
+ border-radius: 30px;
+ line-height: 20px;
+ color: #272044; 
+ margin: 0 auto;
+background-color: #7F8487;
+margin-bottom: 20px;
+}
+
+.answer {
+    padding: 50px;
+    border: 1px solid #7F8487;
+    border-radius: 20px;
+    max-width: 80%;
+    line-height: 100px;  
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    color: #7F8487;
+}
+
+a {
+    color: #7F8487;
+    font-size: 12px;
+    font-style: italic;
 }

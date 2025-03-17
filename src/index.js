@@ -11,8 +11,9 @@ function generatePoem(event) {
   event.preventDefault();
 
   let instructionsBox = document.querySelector("#instructions");
-  let context = "You are a poem expert who likes to make 4 line poems.";
-  let prompt = `Generate a poem about ${instructionsBox}`;
+  let context =
+    "Send an uplifting or encouragement words depending on the mood (for example: happy, sad, tired) that will be provided for you. Make sure that your asnwer is relevant and please be nice and make sure to spread only positivity";
+  let prompt = `Generate an encouraging words for this mood: ${instructionsBox}`;
   let apiKey = "4a023e13f571a05co054c10eb0t37f34";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 

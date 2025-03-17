@@ -6,30 +6,38 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI POEM GENERATOR</title>
+    <title>UPLIFTIFY</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>POEM GENERATOR</h1>
+        <h1>Welcome to Upliftify</h1>
       </header>
+      <h2>
+        Enter your current mood and get an uplifting message tailored just for
+        you!
+      </h2>
       <main>
         <form id="form-box">
           <input
             id="instructions"
             class="text-form"
             type="text"
-            placeholder="Enter a topic of a poem to generate"
+            placeholder="So, how are you feeling today?"
             autofocus
             required
           />
-          <div class="hint">i.e: Flowers, Books or Dreams</div>
+          <div class="hint">(e.g., happy, sad, frustrated)</div>
           <input type="submit" class="submit-button" />
         </form>
-        <div class="answer" id="poem"></div>
+        <div class="answer" id="poem">
+          You are stronger than you think. Every challenge you face is an
+          opportunity to grow, and today is another step toward your greatness.
+          Keep going, the best is yet to come!
+        </div>
       </main>
       <footer>
-        This AI poem generator was coded by
+        This AI mood generator was coded by
         <a
           href="https://github.com/JesthelJhoy/AI-poem-generator"
           target="_blank"

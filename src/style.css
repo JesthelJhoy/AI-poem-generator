@@ -1,29 +1,45 @@
 body {
-  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDVrMnU3c2VhcDRubHRhNTh6eWVhYW4zamc2MzJncmFwczJhNjk5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aDcrsww5Ybp18hq/giphy.gif");
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXk1bTFqMXJtNThsZHBiNTR0bHZvYzkzZWIxeGo2dnY1ZWRxcTFzNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ubktuhEHhnb5C/giphy.gif");
 background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
       height: 100vh;
+      background-blend-mode: screen;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
 .container {
     margin: 100px auto;
     max-width: 600px;
     padding: 40px;
-    background: transparent;
+ background-color: rgba(0,0,0,0.5);
+ border-radius: 30px;
 }
 
+
 h1 {
-    text-align: center;
-  color: #d7dfe5;
+ text-align: center;
+  color: #DCD7C9;
+  line-height: 50px;
   font-weight: 800;
   font size: 38px;
-  line-height: 1.5px
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #DCD7C9;
+  font-size: 18px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hint {
-  color: #d7dfe5;
-  opacity: 30%;
+  color: #DCD7C9;
+  opacity: 0.9;
   background-color: transparent;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -55,7 +71,7 @@ h1 {
  line-height: 20px;
  color: #272044; 
  margin: 0 auto;
-background-color: #7F8487;
+background-color:  #DCD7C9;
 margin-bottom: 20px;
 }
 
@@ -64,18 +80,18 @@ margin-bottom: 20px;
     border: 1px solid #7F8487;
     border-radius: 20px;
     max-width: 80%;
-    line-height: 15px;  
+    line-height: 20px;  
     margin-bottom: 30px;
-    color: #7F8487;
+    color:  #DCD7C9;
 }
 
 footer {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
-    color: #7F8487;
+    color:  #DCD7C9;
 }
 
 a {
-    color: #7F8487;
+    color:  #DCD7C9;
     font-style: italic;
 }
